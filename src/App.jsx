@@ -27,7 +27,6 @@ function App() {
         );
         const data = response.data;
 
-        console.log(data);
         setWeatherdata(data);
         setLoading(false);
       } catch (error) {
