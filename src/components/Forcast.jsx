@@ -42,7 +42,7 @@ function Forcast({ data, title, unitsQuery }) {
             >
               <p className="font-light text-sm">{item.dt_txt.split(" ")[0]}</p>
               <img
-                src={`http://openweathermap.org/img/wn/${item.weather[0].icon}@2x.png`}
+                src={`https://openweathermap.org/img/wn/${item.weather[0].icon}@2x.png`}
                 alt=""
               />
               <p>{item.main.temp}°</p>
